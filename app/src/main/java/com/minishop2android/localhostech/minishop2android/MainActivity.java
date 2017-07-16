@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity
 
         productsList = (ListView) findViewById(R.id.product_list);
 
-        MiniShop.getProducts(this, new VolleyCallback(){
+        MiniShop.getProducts(this, new ProductsCallback(){
             @Override
             public void onSuccess(JSONArray dataProducts){
                 List<String> titles = new ArrayList<String>();

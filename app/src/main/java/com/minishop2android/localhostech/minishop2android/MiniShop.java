@@ -22,7 +22,7 @@ public class MiniShop {
     public static String api_server = "hackside.ru";
     public static  String api_protocol = "http";
 
-    public static void getProducts(Context ctx, final VolleyCallback callback) {
+    public static void getProducts(Context ctx, final ProductsCallback callback) {
         // Instantiate the RequestQueue.
         RequestQueue queue = Volley.newRequestQueue(ctx);
         String method_name = "getProducts";
@@ -56,6 +56,6 @@ public class MiniShop {
 }
 
 
-interface VolleyCallback{
+interface ProductsCallback{
     void onSuccess(JSONArray result);
 }
