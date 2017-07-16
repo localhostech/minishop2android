@@ -8,23 +8,4 @@
     tools:context="com.minishop2android.localhostech.minishop2android.EditForm"
     tools:showIn="@layout/activity_edit_form">
 
-    <EditText
-        android:id="@+id/editTitle"
-        android:layout_width="368dp"
-        android:layout_height="46dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Заголовок"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="18dp" />
-
-    <EditText
-        android:id="@+id/editDescription"
-        android:layout_width="368dp"
-        android:layout_height="133dp"
-        android:ems="10"
-        android:inputType="textMultiLine"
-        android:text="Описание"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="72dp" />
 </android.support.constraint.ConstraintLayout>
